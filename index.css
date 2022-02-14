@@ -64,6 +64,10 @@ pre {
     display: none;
 }
 
+.content{
+    padding:25% 10%;
+}
+
 
 @media (max-width: 850px) {
     h1,h2,h3,h4,h5,h6 {
@@ -76,5 +80,8 @@ pre {
       }
       .image{
         display: block;
+    }
+    .content{
+        padding:10% 5%;
     }
 }
